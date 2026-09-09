@@ -1,0 +1,146 @@
+.dish-item-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 16px;
+  background-color: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  margin-bottom: 12px;
+  list-style-type: none;
+}
+
+.dish-details-container {
+  display: flex;
+  gap: 12px;
+  flex: 1;
+}
+
+.veg-border {
+  width: 16px;
+  height: 16px;
+  border: 2px solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 4px;
+  flex-shrink: 0;
+}
+
+.veg-border.veg {
+  border-color: #10b981;
+}
+
+.veg-border.non-veg {
+  border-color: #b91c1c;
+}
+
+.veg-circle {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+}
+
+.veg-circle.veg {
+  background-color: #10b981;
+}
+
+.veg-circle.non-veg {
+  background-color: #b91c1c;
+}
+
+.dish-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.dish-name {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  color: #1f2937;
+  margin: 0 0 6px 0;
+}
+
+.dish-price {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  color: #374151;
+  margin: 0 0 8px 0;
+}
+
+.dish-description {
+  font-family: 'Roboto', sans-serif;
+  font-size: 13px;
+  color: #9ca3af;
+  margin: 0 0 12px 0;
+  max-width: 480px;
+  line-height: 1.4;
+}
+
+.quantity-controller {
+  display: flex;
+  align-items: center;
+  background-color: #15803d;
+  border-radius: 20px;
+  width: fit-content;
+  padding: 2px 8px;
+}
+
+.quantity-btn {
+  background: transparent;
+  border: none;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 600;
+  width: 28px;
+  height: 28px;
+  cursor: pointer;
+  outline: none;
+}
+
+.quantity-text {
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 14px;
+  padding: 0 8px;
+  margin: 0;
+}
+
+.not-available-text {
+  color: #ef4444;
+  font-size: 13px;
+  font-weight: 500;
+  margin: 4px 0;
+}
+
+.customization-text {
+  color: #6366f1;
+  font-size: 12px;
+  font-weight: 500;
+  margin-top: 8px;
+}
+
+.dish-right-container {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-left: 12px;
+}
+
+.calories-text {
+  font-family: 'Roboto', sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  color: #f59e0b;
+  margin: 0;
+  white-space: nowrap;
+}
+
+.dish-image {
+  width: 90px;
+  height: 90px;
+  border-radius: 8px;
+  object-fit: cover;
+}
